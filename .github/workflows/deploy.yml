@@ -1,0 +1,55 @@
+name: Publish immutable RevealLine archive 03
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: archive-03-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this reviewed infrastructure
+        uses: actions/checkout@v4
+        with:
+          path: archive
+          persist-credentials: false
+      - name: Check out the exact reviewed original builder and history
+        uses: actions/checkout@v4
+        with:
+          repository: mekhovov/revealline
+          ref: fb6a199a4617554d51fa3f9fe9968754244543eb
+          fetch-depth: 0
+          path: source
+          persist-credentials: false
+      - name: Use the exact reproduction runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.22.2
+      - name: Verify finite artifact-directory guards
+        run: python3 archive/tools/test-verify.py
+      - name: Reproduce and verify immutable sites without creating releases or tags
+        run: python3 archive/tools/prepare.py --git-root source --builder-source source --out "$RUNNER_TEMP/archive03"
+      - name: Verify every artifact byte and the three hidden files before upload
+        run: python3 archive/tools/verify-artifact.py "$RUNNER_TEMP/archive03/artifact"
+      - name: Upload the complete canonical artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: ${{ runner.temp }}/archive03/artifact
+          include-hidden-files: true
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy archive-03 under this repository only
+        id: deployment
+        uses: actions/deploy-pages@v4
