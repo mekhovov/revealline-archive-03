@@ -79,7 +79,7 @@ class FrozenSourceStreamTests(unittest.TestCase):
   with self.assertRaisesRegex(RuntimeError,'mode differs'):verify_tar_members(self.tar,self.commit,{'source.txt':('100755',self.entries['source.txt'][1])})
 class LockAuthorityTests(unittest.TestCase):
  def setUp(self):
-  self.lock=json.loads((REPO/'source-lock.json').read_text());self.plan=json.loads((REPO/'pages-archives.json').read_text());self.package={'version':'0.36.0'}
+  self.lock=json.loads((REPO/'source-lock.json').read_text());self.plan=json.loads((REPO/'pages-archives.json').read_text());self.package={'version':'0.37.0'}
  def check(self):validate_lock(self.lock,self.plan,self.package)
  def test_exact_prepared_authority(self):self.check()
  def test_wrong_shard_repository_or_selected_editions_refused(self):
@@ -92,9 +92,9 @@ class LockAuthorityTests(unittest.TestCase):
   self.plan['shards'][-1]['repository']='foreign/archive-03'
   with self.assertRaisesRegex(RuntimeError,'Allocation target'):self.check()
  def test_controller_version_and_source_refused(self):
-  self.package['version']='0.35.0'
+  self.package['version']='0.36.0'
   with self.assertRaisesRegex(RuntimeError,'controller version'):self.check()
-  self.package['version']='0.36.0';self.lock['sourceCommit']='0'*40
+  self.package['version']='0.37.0';self.lock['sourceCommit']='0'*40
   with self.assertRaisesRegex(RuntimeError,'controller source'):self.check()
  def test_all_history_includes_nonsemantic_tag_and_exact_objects(self):
   original=copy.deepcopy(self.lock)

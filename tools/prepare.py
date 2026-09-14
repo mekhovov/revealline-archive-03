@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify two immutable sites and assemble a strictly pinned archive; never freeze or tag."""
+"""Verify three immutable sites and assemble a strictly pinned archive; never freeze or tag."""
 import argparse,hashlib,json,os,re,shutil,stat,subprocess,tarfile,zipfile
 from pathlib import Path,PurePosixPath
 REPO=Path(__file__).resolve().parents[1]
@@ -83,13 +83,13 @@ def verify_frozen_source(root,tarPath,commit,expectedSha256):
  return verify_tar_members(tarPath,commit,entries)
 def validate_lock(lock,plan,package):
  require(lock['sourceRepository']=='mekhovov/revealline' and lock['archiveId']=='archive-03' and lock['archiveRepository']=='mekhovov/revealline-archive-03','Archive target identity differs')
- require(lock['currentVersion']=='v0.36.0' and 'v'+package['version']==lock['currentVersion'],'Current controller version differs')
- require(lock['selectedVersions']==['v0.33.0','v0.34.0'],'Selected editions differ')
+ require(lock['currentVersion']=='v0.37.0' and 'v'+package['version']==lock['currentVersion'],'Current controller version differs')
+ require(lock['selectedVersions']==['v0.33.0','v0.34.0','v0.35.0'],'Selected editions differ')
  selected=[s for s in plan['shards'] if s['id']==lock['archiveId']]
  require(selected==[{'id':lock['archiveId'],'repository':lock['archiveRepository'],'versions':lock['selectedVersions']}],'Allocation target differs')
  require(lock['archiveBudgetBytes']==800_000_000 and lock['node']=='v22.22.2','Archive capacity/runtime differs')
  records=lock['releases'];tags=lock['tagObjects']
- require(len(records)==43 and len({r['version'] for r in records})==43 and len(tags)==44 and len(dict(tags))==44 and tags==sorted(tags),'Complete history count differs')
+ require(len(records)==44 and len({r['version'] for r in records})==44 and len(tags)==45 and len(dict(tags))==45 and tags==sorted(tags),'Complete history count differs')
  require({n:o for n,o in tags if re.fullmatch(r'v\d+\.\d+\.\d+',n)}=={r['version']:r['tagObject'] for r in records},'History tag authority differs')
  current=[r for r in records if r['version']==lock['currentVersion']]
  require(len(current)==1 and current[0]['commit']==lock['sourceCommit'],'Current controller source differs')

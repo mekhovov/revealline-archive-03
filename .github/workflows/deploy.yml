@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: mekhovov/revealline
-          ref: fb6a199a4617554d51fa3f9fe9968754244543eb
+          ref: c8abd4e4e48c34a9ae30255d2d4a2e9a74d593ed
           fetch-depth: 0
           path: source
           persist-credentials: false
@@ -33,7 +33,7 @@ jobs:
         run: python3 archive/tools/test-verify.py
       - name: Reproduce and verify immutable sites without creating releases or tags
         run: python3 archive/tools/prepare.py --git-root source --builder-source source --out "$RUNNER_TEMP/archive03"
-      - name: Verify every artifact byte and the three hidden files before upload
+      - name: Verify every artifact byte and the four hidden files before upload
         run: python3 archive/tools/verify-artifact.py "$RUNNER_TEMP/archive03/artifact"
       - name: Upload the complete canonical artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
