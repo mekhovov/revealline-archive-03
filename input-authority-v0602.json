@@ -1,6 +1,6 @@
 {
   "format": "revealline-archive-input-authority.v1",
-  "purpose": "Preserve v0.60.2 using exact original release bytes; keep all803 predecessor public rows.",
+  "purpose": "Preserve v0.60.2 using exact original release bytes and all canonical edition routes; the shared explorer alone forwards to the main release catalog.",
   "previousInfrastructureCommit": "1137dfc59cf2dc52bd93483cc4ebeb052824e403",
   "previousInfrastructureTree": "2c1edf2abb47cfcad963a659ee178c10108cb02e",
   "previousInventorySha256": "e68d07aa5a80d27385d481204a8762d9195d3f7c0d1f03aee17262507ee14fc0",
@@ -92,5 +92,40 @@
       "sha256": "b56a5c5ee65e498671e1e296cddc816c6949488f476a5543cbac16e3d70de94f"
     }
   },
-  "scope": "Exact retained bytes and ordinary archived play; no profile migration, new feature, hardware or full phase acceptance."
+  "scope": "Exact retained bytes and ordinary archived play; no profile migration, new feature, hardware or full phase acceptance.",
+  "sharedExplorerCorrection": {
+    "previousInfrastructureCommit": "d6f7c3558004d4b13109e7037b48192330aaa0fb",
+    "previousInfrastructureTree": "7a8901a7632887104d8dcb7fec488543594a5771",
+    "previousInventorySha256": "21557cb035c638f32693ce3f9a3b2e62ba61888e428ff9c25554bcbd2a1eb4ed",
+    "oldExplorer": {
+      "path": "legacy/releases-index.before-v0602-bridge.html",
+      "bytes": 1385,
+      "sha256": "971742932e11d8dd293641fcb2dbd37f2ff249f3b2264a1afca816b970f75a5d"
+    },
+    "bridge": {
+      "path": "releases/index.html",
+      "bytes": 571,
+      "sha256": "a67eebc2c45e1659fef5b993c65fee2146ae3e47f352f25b0c9d42ccc77471c0",
+      "destination": "https://mekhovov.github.io/revealline/releases/",
+      "reusedFrom": "accepted Archive11 shared release explorer"
+    },
+    "trigger": {
+      "status": "CORRECTION_REQUIRED_SHARED_EXPLORER",
+      "observationSha256": "1dcde910bb7769b384689ddfcfeb8dcf76e7be805bba9da62d7f45b4a942358a",
+      "deploymentId": 6502627452,
+      "finding": "Retained v0.60.2 title opened historical Current v0.35.0 list without a main-catalog link."
+    },
+    "preservedCurrentRows": 1489,
+    "preservedOriginalLegacyRows": 802,
+    "preservedOriginalCanonicalRows": 798,
+    "unchanged": [
+      "four original release cohorts and tags",
+      "legacy JSON routes",
+      "root index",
+      ".nojekyll",
+      "extractor/verifier algorithms",
+      "workflow permissions and 800 MB capacity"
+    ],
+    "acceptance": "Successor deployment, full public byte audit and root native explorer/Back journey remain required; first deployment is not admitted."
+  }
 }

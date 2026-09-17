@@ -74,7 +74,7 @@
       "sha256": "7e35d939ef360c5c50cac96cf3750231b564f35eeafca495bbcbdff5f88c6b4b"
     }
   ],
-  "expectedInventorySha256": "21557cb035c638f32693ce3f9a3b2e62ba61888e428ff9c25554bcbd2a1eb4ed",
+  "expectedInventorySha256": "627292662e8589d3c2efab7cb008ca26a22bf434f000472885208876fa8cad65",
   "expectedFiles": 1490,
-  "expectedBytes": 783088453
+  "expectedBytes": 783087639
 }
