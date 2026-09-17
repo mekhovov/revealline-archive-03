@@ -303,7 +303,7 @@ class CohortTests(unittest.TestCase):
 class CommittedMetadataTests(unittest.TestCase):
     def test_exact_three_legacy_cohorts_and_v0602_metadata(self):
         lock, inventory = locked_inputs(ROOT)
-        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (1490, 783088453))
+        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (1490, 783087639))
         self.assertEqual([r['version'] for r in lock['releases']], ['v0.33.0', 'v0.34.0', 'v0.35.0', 'v0.60.2'])
         legacy = json.loads((ROOT / 'legacy/source-lock.v1.json').read_bytes())
         self.assertEqual(legacy['format'], 'revealline-archive-source-lock.v1')
@@ -316,7 +316,10 @@ class CommittedMetadataTests(unittest.TestCase):
         original = json.loads((ROOT / 'legacy/expected-inventory.v1.json').read_bytes())
         self.assertEqual(len(original['files']), 803)
         actual = {row['path']: row for row in inventory['files']}
-        self.assertEqual([actual[row['path']] for row in original['files']], original['files'])
+        preserved = [row for row in original['files'] if row['path'] != 'releases/index.html']
+        self.assertEqual(len(preserved), 802)
+        self.assertEqual([actual[row['path']] for row in preserved], preserved)
+        self.assertEqual(len([row for row in preserved if row['path'].startswith('releases/v0.')]), 798)
         successor = lock['releases'][3]
         self.assertEqual(successor['tagObject'], '632bf35908ea33fb9356d41d758d302f19361c12')
         self.assertEqual(successor['sourceRevision'], 'ece40093940aabdc3b3659a07394b856f33ad4a1')
@@ -351,11 +354,48 @@ class CommittedMetadataTests(unittest.TestCase):
         lock, inventory = locked_inputs(ROOT)
         expected = json.loads((ROOT / 'legacy/expected-inventory.v1.json').read_bytes())
         lookup = {row['path']: row for row in expected['files']}
-        for name in ('index.html', 'releases/index.html'):
-            self.assertEqual(digest(ROOT / name), lookup[name]['sha256'])
+        self.assertEqual(digest(ROOT / 'index.html'), lookup['index.html']['sha256'])
+        saved = ROOT / 'legacy/releases-index.before-v0602-bridge.html'
+        self.assertEqual(saved.stat().st_size, lookup['releases/index.html']['bytes'])
+        self.assertEqual(digest(saved), lookup['releases/index.html']['sha256'])
         for row in lock['staticFiles']:
             self.assertEqual(row, lookup[row['path']])
             self.assertEqual(digest(ROOT / 'static' / row['path']), row['sha256'])
+
+
+    def test_release_explorer_has_an_accessible_fallback_and_main_destination(self):
+        class Links(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.refreshes = []
+                self.links = []
+                self.current = None
+
+            def handle_starttag(self, tag, attrs):
+                attrs = dict(attrs)
+                if tag == 'meta' and attrs.get('http-equiv', '').lower() == 'refresh':
+                    self.refreshes.append(attrs.get('content', ''))
+                if tag == 'a':
+                    self.current = [attrs.get('href'), '']
+                    self.links.append(self.current)
+
+            def handle_data(self, data):
+                if self.current is not None:
+                    self.current[1] += data
+
+            def handle_endtag(self, tag):
+                if tag == 'a':
+                    self.current = None
+
+        parser = Links()
+        parser.feed((ROOT / 'releases/index.html').read_text())
+        destination = 'https://mekhovov.github.io/revealline/releases/'
+        self.assertEqual(len(parser.refreshes), 1)
+        delay, target = parser.refreshes[0].split(';', 1)
+        self.assertEqual((delay.strip(), target.strip()), ('0', 'url=' + destination))
+        self.assertEqual(len(parser.links), 1)
+        self.assertEqual(parser.links[0][0], destination)
+        self.assertIn('release explorer', parser.links[0][1].lower())
 
 
 if __name__ == '__main__':
