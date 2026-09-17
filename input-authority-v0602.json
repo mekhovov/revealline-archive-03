@@ -1,0 +1,96 @@
+{
+  "format": "revealline-archive-input-authority.v1",
+  "purpose": "Preserve v0.60.2 using exact original release bytes; keep all803 predecessor public rows.",
+  "previousInfrastructureCommit": "1137dfc59cf2dc52bd93483cc4ebeb052824e403",
+  "previousInfrastructureTree": "2c1edf2abb47cfcad963a659ee178c10108cb02e",
+  "previousInventorySha256": "e68d07aa5a80d27385d481204a8762d9195d3f7c0d1f03aee17262507ee14fc0",
+  "sourceReleaseId": 390644083,
+  "sourceReleasePublishedAt": "2026-09-17T11:18:01Z",
+  "sourceReleaseURL": "https://github.com/mekhovov/revealline/releases/tag/v0.60.2",
+  "source": "ece40093940aabdc3b3659a07394b856f33ad4a1",
+  "sourceTree": "32b36e6e8fc605911b2cb98cd8f67c97b8f4e214",
+  "originalTagObject": "632bf35908ea33fb9356d41d758d302f19361c12",
+  "sourceAssets": [
+    {
+      "id": 570096737,
+      "name": "distribution.zip",
+      "size": 313141596,
+      "digest": "sha256:60f3af0627d4fe77365187b0ace6d46c8062cc3fd099a7872d9a3cf07aeff5da",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/distribution.zip"
+    },
+    {
+      "id": 570092671,
+      "name": "distribution.zip.sha256",
+      "size": 83,
+      "digest": "sha256:4a6e4dfce8b2550220ba7d31cf0f8f1116d6bb84bb8773a13835bae9e9485815",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/distribution.zip.sha256"
+    },
+    {
+      "id": 570092672,
+      "name": "manifest.json",
+      "size": 126036,
+      "digest": "sha256:948d5048e2b155dcdd44f20dbdd39584d3ab84ab3daf139e0a0e4dd55eafb646",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/manifest.json"
+    },
+    {
+      "id": 570092758,
+      "name": "qualification-evidence-record.json",
+      "size": 10477,
+      "digest": "sha256:37979635b2d6913d622956b25f2ba0b54c550f2ac24b678307735dfb3115ff76",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/qualification-evidence-record.json"
+    },
+    {
+      "id": 570092673,
+      "name": "release.json",
+      "size": 465,
+      "digest": "sha256:470e735c920e85d7b531d5e2c33e983ca16694bbf2c0043fbcbafeb0b6989a8c",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/release.json"
+    },
+    {
+      "id": 570092669,
+      "name": "source-qualification-evidence.zip",
+      "size": 2434562,
+      "digest": "sha256:788e5b45a5f69ebeccbd83b96d27ffa6f0ad8940d959a331f78a6b6fdeff0778",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/source-qualification-evidence.zip"
+    },
+    {
+      "id": 570092674,
+      "name": "source-qualification.json",
+      "size": 71249,
+      "digest": "sha256:b56a5c5ee65e498671e1e296cddc816c6949488f476a5543cbac16e3d70de94f",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/source-qualification.json"
+    },
+    {
+      "id": 570096118,
+      "name": "source.tar",
+      "size": 1013821440,
+      "digest": "sha256:94348b9528a101da13f928b687c77ec5983d14b3a1df02d4845f214611f6755b",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/source.tar"
+    },
+    {
+      "id": 570092755,
+      "name": "verification.json",
+      "size": 1912,
+      "digest": "sha256:c0ff3fa36eb993b6db53438bf63a128473582571a534a255aafe304becff548f",
+      "browser_download_url": "https://github.com/mekhovov/revealline/releases/download/v0.60.2/verification.json"
+    }
+  ],
+  "retainedSourceMetadata": {
+    "version": "v0.60.2",
+    "sourceRevision": "ece40093940aabdc3b3659a07394b856f33ad4a1",
+    "tagObject": "632bf35908ea33fb9356d41d758d302f19361c12",
+    "metadata": {
+      "release.json": "470e735c920e85d7b531d5e2c33e983ca16694bbf2c0043fbcbafeb0b6989a8c",
+      "manifest.json": "948d5048e2b155dcdd44f20dbdd39584d3ab84ab3daf139e0a0e4dd55eafb646",
+      "distribution.zip.sha256": "4a6e4dfce8b2550220ba7d31cf0f8f1116d6bb84bb8773a13835bae9e9485815"
+    },
+    "distributionSha256": "60f3af0627d4fe77365187b0ace6d46c8062cc3fd099a7872d9a3cf07aeff5da",
+    "distributionBytes": 313141596,
+    "sourceTree": "32b36e6e8fc605911b2cb98cd8f67c97b8f4e214",
+    "sourceQualification": {
+      "bytes": 71249,
+      "sha256": "b56a5c5ee65e498671e1e296cddc816c6949488f476a5543cbac16e3d70de94f"
+    }
+  },
+  "scope": "Exact retained bytes and ordinary archived play; no profile migration, new feature, hardware or full phase acceptance."
+}

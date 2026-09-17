@@ -1,0 +1,597 @@
+{
+  "format": "revealline-archive-source-lock.v1",
+  "sourceRepository": "mekhovov/revealline",
+  "sourceCommit": "c8abd4e4e48c34a9ae30255d2d4a2e9a74d593ed",
+  "currentVersion": "v0.37.0",
+  "archiveRepository": "mekhovov/revealline-archive-03",
+  "archiveId": "archive-03",
+  "selectedVersions": [
+    "v0.33.0",
+    "v0.34.0",
+    "v0.35.0"
+  ],
+  "node": "v22.22.2",
+  "archiveBudgetBytes": 800000000,
+  "sourceInventorySha256": "433ab93ce2ef95ae3764ac621479c290562869b585e4d83f60ed3848e27c3f42",
+  "priorArchiveInventorySha256": "dc1eb39fafeb5aab0dda962cf70917b04e5c6174d307988fbcc588222749f886",
+  "allocationSha256": "c7d60dbfac647d8a5d3a004dbdd21fa379801adb2301281110e6f66b9fc09df6",
+  "expectedInventorySha256": "e68d07aa5a80d27385d481204a8762d9195d3f7c0d1f03aee17262507ee14fc0",
+  "tagObjects": [
+    [
+      "v0.0.9-motion-lab",
+      "c58557c4de2bf7fc9488341d8cf04d02c196bf27"
+    ],
+    [
+      "v0.1.0",
+      "c5e4c5a6fa141c1cb106b769712666e1726980d0"
+    ],
+    [
+      "v0.1.1",
+      "76687c2decf409d845f698ad7fefa92167178011"
+    ],
+    [
+      "v0.1.2",
+      "5f539f6f722c49f36a31701454a683ee60122d81"
+    ],
+    [
+      "v0.10.0",
+      "78d91a364e83c463c65513755c9e84aaccbc56f3"
+    ],
+    [
+      "v0.11.0",
+      "15edf83529e289a967289820bbc43ecd344c8779"
+    ],
+    [
+      "v0.12.0",
+      "57ef1b15ed8f887d8c905df499d85ca302df2fc6"
+    ],
+    [
+      "v0.13.0",
+      "8f769643d246211d3ae3d451eb74eeb5ed448ab0"
+    ],
+    [
+      "v0.14.0",
+      "b61d48560efd0423f163557c46ef81b5bafbecbd"
+    ],
+    [
+      "v0.15.0",
+      "8aca496c217199fbca442bd04a8ca0a231429c7a"
+    ],
+    [
+      "v0.16.0",
+      "39f071ae3ad38d648f8bd2fa82a79bccce33fc84"
+    ],
+    [
+      "v0.17.0",
+      "4f14195f94f17efee4915264c740f0c6e9afefd0"
+    ],
+    [
+      "v0.17.1",
+      "299375ec717442f7967543f991c994643c6e2bd3"
+    ],
+    [
+      "v0.18.0",
+      "8a51ef1da7d69786a5c60e2125234e907e32a4be"
+    ],
+    [
+      "v0.19.0",
+      "b12479e46307dbc6178ee4189cba6940a6baba73"
+    ],
+    [
+      "v0.2.0",
+      "eec303cc67914fa6a90db6bd209d41f2e7195ecb"
+    ],
+    [
+      "v0.2.1",
+      "147616ff1ac6f272193eb15ca9df9d1c158e8d29"
+    ],
+    [
+      "v0.20.0",
+      "3adac423d22a47598997098145001f1ee3e3ea41"
+    ],
+    [
+      "v0.21.0",
+      "6eb25743751f8e55078c0bbc32efaf6c197baf89"
+    ],
+    [
+      "v0.22.0",
+      "d299ff0c3f3d232e9066cff8fd0d40ab93edeaf2"
+    ],
+    [
+      "v0.23.0",
+      "46be19b49016eebb0d05fefa12ed23df3982d0e6"
+    ],
+    [
+      "v0.24.0",
+      "7a84f22481a6ac5f835cbde6777ad08260260bcf"
+    ],
+    [
+      "v0.25.0",
+      "e51019404f4798c75e0efeacafc54360e67d6750"
+    ],
+    [
+      "v0.26.0",
+      "1427b8c737a4541be23f086de7f48bfc70ee6309"
+    ],
+    [
+      "v0.27.0",
+      "7c03c06a0f4d15af31b0bbd2a6fa4e3a44c5ab18"
+    ],
+    [
+      "v0.28.0",
+      "e87d4ad077b6057c2c65efed99310087d39c8318"
+    ],
+    [
+      "v0.29.0",
+      "fe04904513825e8b63a37ef14beaac2311ce0449"
+    ],
+    [
+      "v0.29.1",
+      "abbc18111d445360e4666fe7193adfd191197b2b"
+    ],
+    [
+      "v0.29.2",
+      "6211817554fc82bfc65b8c15bf825beb82301859"
+    ],
+    [
+      "v0.3.0",
+      "7cd2046405a7d4daf6663c01c1478101bd0a632a"
+    ],
+    [
+      "v0.30.0",
+      "1e2a3f3d5b731f27aa4ed36670b9fd803fb4c300"
+    ],
+    [
+      "v0.31.0",
+      "f948b00e90b974b521fd9d215c4eaa8af118195f"
+    ],
+    [
+      "v0.32.0",
+      "be78ff4adfa5be834ccee7cfaf150300ef604232"
+    ],
+    [
+      "v0.33.0",
+      "ef957d2573cc07a5aef366f8eab2a24dbaa08965"
+    ],
+    [
+      "v0.34.0",
+      "dc0afc51bf6290555eb1b37287b7374040062b68"
+    ],
+    [
+      "v0.35.0",
+      "dc612f49b844c65895b75f8ddcd47543077a715f"
+    ],
+    [
+      "v0.36.0",
+      "7fd492d653e1763a0f98d63d8d3fe746a84f0ded"
+    ],
+    [
+      "v0.37.0",
+      "2c61fb61e510a8a8941b77eb7843aabdce1e26df"
+    ],
+    [
+      "v0.4.0",
+      "378e7902efdc5f9f585efee5946fb4661d9cfec7"
+    ],
+    [
+      "v0.4.1",
+      "42dc21f65f666036706d57c6f1054a37967f367b"
+    ],
+    [
+      "v0.5.0",
+      "8ce113979ab250bbd4ce294786dfddbaf9efe154"
+    ],
+    [
+      "v0.6.0",
+      "eff751d470acef2ca2e56f5d346f94ced2f2af71"
+    ],
+    [
+      "v0.7.0",
+      "bd22efa264ee35cf1695768fff15436b8083d47b"
+    ],
+    [
+      "v0.8.0",
+      "7aaa39e0b2ae10d6438b026cebacae5268c4b058"
+    ],
+    [
+      "v0.9.0",
+      "8a791ab186af446ef884dc0184c6fedcc726e563"
+    ]
+  ],
+  "contracts": [
+    {
+      "path": "scripts/build-pages.mjs",
+      "sha256": "89f45eebbbc07841e9a9572d4774d7285cd80e88cdcb16bbfc8e4b7bb32d7f63"
+    },
+    {
+      "path": "scripts/pages-archive.mjs",
+      "sha256": "d920b77445160356c4dd5200f55d1d36ef5d26daccf920bb3b9eaad536884afb"
+    },
+    {
+      "path": "scripts/pages-current-entry.mjs",
+      "sha256": "b81b0b52ef6fb3d6b2eec0628fbf3fed94dbcb1383a8e558d34054f61f6b3ec4"
+    },
+    {
+      "path": "scripts/game-cli.mjs",
+      "sha256": "93805cedc9abe70298df782504eacf352c68f258bcfe74157bc58b1736365b2e"
+    },
+    {
+      "path": "scripts/pack-indexes.mjs",
+      "sha256": "34ecdb35caecd581a5477e3972130f1ef67004fcd7add7f055126cb65a52a35e"
+    },
+    {
+      "path": "scripts/optional-distribution.mjs",
+      "sha256": "0fb416bddd39eab244c911d453df383a6488ce3a3a515eae37d07560aec93c71"
+    },
+    {
+      "path": "scripts/external-distribution.mjs",
+      "sha256": "1703aecb14804d98ab18aedefb93fefda1beaf9574c114141c3f5d5214b9b6af"
+    },
+    {
+      "path": "scripts/pages-archives.json",
+      "sha256": "84b6595163d2b3412fb7953d085d1fff5fe1cbbab721d5012c1d57ffb5941012"
+    },
+    {
+      "path": "package.json",
+      "sha256": "5a1f698b548e9433496be896c47f79a94d89a81c5d4a8e266294b71bc19ed417"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "136a006301c7c00c1902b47069931d4a1e1126c3ba7754aebacc1e82637653a1"
+    }
+  ],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "tagObject": "c5e4c5a6fa141c1cb106b769712666e1726980d0",
+      "commit": "c5e4c5a6fa141c1cb106b769712666e1726980d0",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.1.0\",\n  \"sourceRevision\": \"c5e4c5a6fa141c1cb106b769712666e1726980d0\",\n  \"sourceArchiveSha256\": \"4c3e7d22145f33656c9d0868a1e27c33e6161ebaca1be275272fc1d70dc75cfb\",\n  \"distributionSha256\": \"af3468a43496eb450a05463b9288307dced3993b60b6c0008dfb7174e4b6b955\",\n  \"manifestSha256\": \"b0bd08588a7004faabf138d94773044cef7522254a0efe492b127dcb8596ea50\",\n  \"play\": \"v0.1.0/site/game/\",\n  \"download\": \"v0.1.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "925a801c9b3c40e8387a5fb1dc19a7e2ea239a35f16fef417cfbda734eb08475"
+    },
+    {
+      "version": "v0.1.1",
+      "tagObject": "76687c2decf409d845f698ad7fefa92167178011",
+      "commit": "76687c2decf409d845f698ad7fefa92167178011",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.1.1\",\n  \"sourceRevision\": \"76687c2decf409d845f698ad7fefa92167178011\",\n  \"sourceArchiveSha256\": \"c9a38c94bbabbba92f7c122dbb7b5b68f7655a5f8681cdd93d59244c96a5a77c\",\n  \"distributionSha256\": \"451d938a7223bb300a4b61afca317c7fcec601e843ab216072d156847259f5ec\",\n  \"manifestSha256\": \"d0e3a743cb855bb6bdf2c1ec74bc7b79cd55520e0c09126c433aa92c3cf6ad32\",\n  \"play\": \"v0.1.1/site/game/\",\n  \"download\": \"v0.1.1/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "5e95e126cb2675a55b01fdcb96d62a9ea2a54715ebce7cda89e028742ea6c8c2"
+    },
+    {
+      "version": "v0.1.2",
+      "tagObject": "5f539f6f722c49f36a31701454a683ee60122d81",
+      "commit": "5f539f6f722c49f36a31701454a683ee60122d81",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.1.2\",\n  \"sourceRevision\": \"5f539f6f722c49f36a31701454a683ee60122d81\",\n  \"sourceArchiveSha256\": \"ae59521f5ceaafcd2070d683f1a02085af95b8f6e8bb0a0dfc6547ba1f5a516f\",\n  \"distributionSha256\": \"38745a2bb05ac56c8cbfe31d5b5046da4a7a633c940ddedcc4c2612527001356\",\n  \"manifestSha256\": \"cdc3eaf999081e4b389a31c3bc3200dba1221287fff01d8c82499c1fbaf7f155\",\n  \"play\": \"v0.1.2/site/game/\",\n  \"download\": \"v0.1.2/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "1dde23cc6f61fa53968ea634ced9c0b1fd475336a75bd9971aa1a2aaeb7b35df"
+    },
+    {
+      "version": "v0.2.0",
+      "tagObject": "eec303cc67914fa6a90db6bd209d41f2e7195ecb",
+      "commit": "eec303cc67914fa6a90db6bd209d41f2e7195ecb",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.2.0\",\n  \"sourceRevision\": \"eec303cc67914fa6a90db6bd209d41f2e7195ecb\",\n  \"sourceArchiveSha256\": \"6ec3cf2fde57a4d478ab0c5e4593588baede255a6020bc80ad416acad9496de5\",\n  \"distributionSha256\": \"0db2135c8290bcbffa342bcba4768e1ccf80391229495c923364892970f9f429\",\n  \"manifestSha256\": \"2bc8c25e70e691b32b57efb30534bbb036733eaec5e2ea3466ec5b853fdefe18\",\n  \"play\": \"v0.2.0/site/game/\",\n  \"download\": \"v0.2.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "42c3acb07bfe22d7fc2c54cfb1f0c9962a5df7fc09c72fb20698cbb385f33fc5"
+    },
+    {
+      "version": "v0.2.1",
+      "tagObject": "147616ff1ac6f272193eb15ca9df9d1c158e8d29",
+      "commit": "147616ff1ac6f272193eb15ca9df9d1c158e8d29",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.2.1\",\n  \"sourceRevision\": \"147616ff1ac6f272193eb15ca9df9d1c158e8d29\",\n  \"sourceArchiveSha256\": \"97323071e6a38e8ebe61797a12e8adda25a3087253e40915589d0617a715dc57\",\n  \"distributionSha256\": \"1a0c88d4758e65826af0c1fcebdb55181cd3f2d77ea6f7b8413a1894997daafd\",\n  \"manifestSha256\": \"76f6d6e3a36a3d2b14411a76c8fb59560e7bbe3b19e5614722b22fd10a1f0774\",\n  \"play\": \"v0.2.1/site/game/\",\n  \"download\": \"v0.2.1/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "ea4de01ad93b7223d6004814c3255684214b0df7b0267bc91c4b7fc9c0ec261e"
+    },
+    {
+      "version": "v0.3.0",
+      "tagObject": "7cd2046405a7d4daf6663c01c1478101bd0a632a",
+      "commit": "7cd2046405a7d4daf6663c01c1478101bd0a632a",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.3.0\",\n  \"sourceRevision\": \"7cd2046405a7d4daf6663c01c1478101bd0a632a\",\n  \"sourceArchiveSha256\": \"6e45ac6777d0b504f536791f1c2c86efc710ae6886e387cb5402c9e410e76012\",\n  \"distributionSha256\": \"a5378bc01ff54bb3a17ac4f3b5778db6d7d2d0b8d478d496e332cc56fd387207\",\n  \"manifestSha256\": \"30ceeac7aab37a3d91ec3b90ebc4b4acc94fa377e954df7b047ea8e05f010b1d\",\n  \"play\": \"v0.3.0/site/game/\",\n  \"download\": \"v0.3.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "5d070a0d5433cb2d7e8472e6501c949f7136015eb1f880c4d5ad75dd1d3fb8c4"
+    },
+    {
+      "version": "v0.4.0",
+      "tagObject": "378e7902efdc5f9f585efee5946fb4661d9cfec7",
+      "commit": "378e7902efdc5f9f585efee5946fb4661d9cfec7",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.4.0\",\n  \"sourceRevision\": \"378e7902efdc5f9f585efee5946fb4661d9cfec7\",\n  \"sourceArchiveSha256\": \"117823941f85f4cca41f2386de8b2682c9dd69e0abe3d0b607904dae61d260a7\",\n  \"distributionSha256\": \"aae68ddb2227e9e7dd6b7b90f9f1ae4c7f9591623e9bd690dacea67989d93cfb\",\n  \"manifestSha256\": \"a172e2bc322096e6699bec01abba42214cf97c200425baba53677ecb2475039d\",\n  \"play\": \"v0.4.0/site/game/\",\n  \"download\": \"v0.4.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "49e27cbf0bccd2bf592de21d297ba488c4b7cd7e7d27798c82f48ac426b240b0"
+    },
+    {
+      "version": "v0.4.1",
+      "tagObject": "42dc21f65f666036706d57c6f1054a37967f367b",
+      "commit": "42dc21f65f666036706d57c6f1054a37967f367b",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.4.1\",\n  \"sourceRevision\": \"42dc21f65f666036706d57c6f1054a37967f367b\",\n  \"sourceArchiveSha256\": \"b70d0db44b56ae828fa349bc90bda82484978f70b06d74e0ab39a5573723c7ef\",\n  \"distributionSha256\": \"d14374c2660b858f7094a7f4d6b3e0e2327bb407a3b033db0743ee090449a77b\",\n  \"manifestSha256\": \"410926ada19bb7f6dc1795cfc54d2f97eac6a707e0df84f55852d8de13ce0cc0\",\n  \"play\": \"v0.4.1/site/game/\",\n  \"download\": \"v0.4.1/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "5db1e5a783c9dcc54485ea2ed1f57dd807ce02ddf4e28dba020b21333c7dd666"
+    },
+    {
+      "version": "v0.5.0",
+      "tagObject": "8ce113979ab250bbd4ce294786dfddbaf9efe154",
+      "commit": "617fc224043945c0fc337c12027aa70e4da33323",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.5.0\",\n  \"sourceRevision\": \"617fc224043945c0fc337c12027aa70e4da33323\",\n  \"sourceArchiveSha256\": \"62decf095cbf4da2bab0fcd29f27480dadd80cbc3f13c3c43b0d90eac5eeaa3b\",\n  \"distributionSha256\": \"2d84e13c9a59b0905131be845a6d4464137ffacc11f9a593f8492c9b4dc5461f\",\n  \"manifestSha256\": \"04a59cc082d242d884c6bc304e54e29101ea8fcdb708a7e2016edd5def2cbfb9\",\n  \"play\": \"v0.5.0/site/game/\",\n  \"download\": \"v0.5.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "163f31378db67ae32796010446710dff26d2c1a2048fe588033be510e7045e5c"
+    },
+    {
+      "version": "v0.6.0",
+      "tagObject": "eff751d470acef2ca2e56f5d346f94ced2f2af71",
+      "commit": "e88bab7e9677c82419aca35557c858c670425f16",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.6.0\",\n  \"sourceRevision\": \"e88bab7e9677c82419aca35557c858c670425f16\",\n  \"sourceArchiveSha256\": \"8b0ad855a170c16d9d217aa9bc25619d518b4b74d16a25889c2c46989a21388d\",\n  \"distributionSha256\": \"5eb72e65a262a57cbbff7d3c485c0a99d3857c3bfe2233092e8463e50b8b042d\",\n  \"manifestSha256\": \"6803d6dc471165de4ab4a61af7c5a24ec8472e47f55b0a2d9c1a6324ddadd2c3\",\n  \"play\": \"v0.6.0/site/game/\",\n  \"download\": \"v0.6.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "99508fbe8d4a906bcccb1bf2aa918fbebfa008c42232d6e998a5cd5fbe7e4c35"
+    },
+    {
+      "version": "v0.7.0",
+      "tagObject": "bd22efa264ee35cf1695768fff15436b8083d47b",
+      "commit": "1d4a8d9636428122cca857533dff68c7ee65ac88",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.7.0\",\n  \"sourceRevision\": \"1d4a8d9636428122cca857533dff68c7ee65ac88\",\n  \"sourceArchiveSha256\": \"d22895233c1754dd1a69dd736bf4609252211e89b92c5a86ecf60d04351b9317\",\n  \"distributionSha256\": \"a6aea955ccc0a3137f1d4d26001bb9ceac9242850f50616e65900919fe177729\",\n  \"manifestSha256\": \"c2dde7df03dcd441eb9c50e213dd9fb1e84761c931730e13cee701627a786bce\",\n  \"play\": \"v0.7.0/site/game/\",\n  \"download\": \"v0.7.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "ca81850e2d7e3ad6cb39d5918d0b1037339073703a3d4d8b5a26c504fed89b72"
+    },
+    {
+      "version": "v0.8.0",
+      "tagObject": "7aaa39e0b2ae10d6438b026cebacae5268c4b058",
+      "commit": "8410d814dbcc7b3aef53e11c6f94d384d01cce05",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.8.0\",\n  \"sourceRevision\": \"8410d814dbcc7b3aef53e11c6f94d384d01cce05\",\n  \"sourceArchiveSha256\": \"6ea37522cf6e253b2999611b2a66e0a2aa661dac61ca37d7db6771edfe86e52b\",\n  \"distributionSha256\": \"eeaf8ec821909d07d5d187cf2fbf0ddb968b041d346d4c200e7d7f58ff15e412\",\n  \"manifestSha256\": \"32c76ce0742f9c7bd78e50ece49a58a43ff05cf6a6f9566159e1593c997567f0\",\n  \"play\": \"v0.8.0/site/game/\",\n  \"download\": \"v0.8.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "0e93042818f08f26d0e8ab5fa8497b6acad7a1ff843dd0d206edf03961665aaf"
+    },
+    {
+      "version": "v0.9.0",
+      "tagObject": "8a791ab186af446ef884dc0184c6fedcc726e563",
+      "commit": "315a4782a159f2274f7200e3470ec20c3859707b",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.9.0\",\n  \"sourceRevision\": \"315a4782a159f2274f7200e3470ec20c3859707b\",\n  \"sourceArchiveSha256\": \"3877c952754d80469ef11136381b164cde59ac3d0e8f92e30f1e286526de17dd\",\n  \"distributionSha256\": \"7e88f5e7c1ee1835d85bc1df7c1b0aa1763dbd66d49097005abb5dd023a6c346\",\n  \"manifestSha256\": \"fb3b40ee4f55377b2bc747bc9b946792566f69b08a6146822d4975e880dc15ce\",\n  \"play\": \"v0.9.0/site/game/\",\n  \"download\": \"v0.9.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 462,
+      "recordSha256": "a1c973cf44dcb99bec0941f7e80d5a300f4ce2cacc2cb7db911b77c2f677e604"
+    },
+    {
+      "version": "v0.10.0",
+      "tagObject": "78d91a364e83c463c65513755c9e84aaccbc56f3",
+      "commit": "40ae9d23ad8737c4f77f9cc07923948133b7c09d",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.10.0\",\n  \"sourceRevision\": \"40ae9d23ad8737c4f77f9cc07923948133b7c09d\",\n  \"sourceArchiveSha256\": \"cfc48dd29d71eefaef128a839a38f2f1302ec5f63a3994742adb0cf84242eeab\",\n  \"distributionSha256\": \"1bc32886efd395f00280099e3133376ffc384d7ab7d304481f3fc9eb5c536ec9\",\n  \"manifestSha256\": \"bf5f607fcea10e9db421799bb900ecc6ab8364239f22b6a2ca89bf473a72a02d\",\n  \"play\": \"v0.10.0/site/game/\",\n  \"download\": \"v0.10.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "62b6e71bc72495c583ca6816ad5cff9dc72a422e5e30802b3e5d28e527f482b1"
+    },
+    {
+      "version": "v0.11.0",
+      "tagObject": "15edf83529e289a967289820bbc43ecd344c8779",
+      "commit": "7bc32d62fb7ec9c24e8b8dc5a80a016bbb76c2db",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.11.0\",\n  \"sourceRevision\": \"7bc32d62fb7ec9c24e8b8dc5a80a016bbb76c2db\",\n  \"sourceArchiveSha256\": \"ac2cd79547dc3e2c481b7bbecb0d6d2225d3dbebf16452aa4274cb0ec03c7c7d\",\n  \"distributionSha256\": \"8e066a13120961bbb6c139edb95ff51a2838f5a1d74a051f8776277885f62158\",\n  \"manifestSha256\": \"c6558d315f811ac35e6444b6e759e27dd4f74ca2732cfc19fcc7b46af4ae5bda\",\n  \"play\": \"v0.11.0/site/game/\",\n  \"download\": \"v0.11.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "4596634a172517f40e55aa8a4e4eadbe01f81587f5e574de2b5a3b76623756e5"
+    },
+    {
+      "version": "v0.12.0",
+      "tagObject": "57ef1b15ed8f887d8c905df499d85ca302df2fc6",
+      "commit": "640f3e3570323394a22922261e8928634db7bf3b",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.12.0\",\n  \"sourceRevision\": \"640f3e3570323394a22922261e8928634db7bf3b\",\n  \"sourceArchiveSha256\": \"0030f90969aa84e8e061382a1ba55b14ccf28810a077b7b0a919326d0b4f786d\",\n  \"distributionSha256\": \"bc160dc0000557b3af5c59cebc8cd77ca553bae48244614359691073802d2d07\",\n  \"manifestSha256\": \"89abb55adc3a47792c778df7e24ef971d1d87d989946e512e3b577445d50515b\",\n  \"play\": \"v0.12.0/site/game/\",\n  \"download\": \"v0.12.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "072e78efb6e80ab5ee682090a9a2801ab4b723b2dc40b4301a2ded2abc039a11"
+    },
+    {
+      "version": "v0.13.0",
+      "tagObject": "8f769643d246211d3ae3d451eb74eeb5ed448ab0",
+      "commit": "c7b0122edffcaabbdfa6a817c06f603625f79fe0",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.13.0\",\n  \"sourceRevision\": \"c7b0122edffcaabbdfa6a817c06f603625f79fe0\",\n  \"sourceArchiveSha256\": \"9949ef4efc86288c63647bcb34778cef150d4998a727568e41e71f35e0349de7\",\n  \"distributionSha256\": \"35b2470a33243fd18f19683ecec36c0b7748e38dbb93f57300bfab31eab2cac3\",\n  \"manifestSha256\": \"b63caefd0362c2e23b89b50e656851ab820d97468bc7a890332d0bf38dc698fe\",\n  \"play\": \"v0.13.0/site/game/\",\n  \"download\": \"v0.13.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "d6c4bf5f306ea5a40556e5af50383d5ad4abbae0720711f65538672c031c5dfd"
+    },
+    {
+      "version": "v0.14.0",
+      "tagObject": "b61d48560efd0423f163557c46ef81b5bafbecbd",
+      "commit": "21dfaeed08df95e7cb1d0e20c28c39b3fd3364ee",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.14.0\",\n  \"sourceRevision\": \"21dfaeed08df95e7cb1d0e20c28c39b3fd3364ee\",\n  \"sourceArchiveSha256\": \"c0701c46a82a857cd0a4a2e66cf72041856f519aa403cac1f5a81dd3ed812915\",\n  \"distributionSha256\": \"926abf6ba536a50ab951b27644cccd15d1c503c8a4519c1b6b79c041b39556c1\",\n  \"manifestSha256\": \"77a60de67b27a3002f073a3fc4573716abcf1d352d7dfd3a24eea856692a6b4c\",\n  \"play\": \"v0.14.0/site/game/\",\n  \"download\": \"v0.14.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "ce98cbd507856592718e5398cd0506c70076e5b1cafda618af3bc56a24a70c0e"
+    },
+    {
+      "version": "v0.15.0",
+      "tagObject": "8aca496c217199fbca442bd04a8ca0a231429c7a",
+      "commit": "8eef7e2ada51dbd6ebec0fe134aeef667d047c6c",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.15.0\",\n  \"sourceRevision\": \"8eef7e2ada51dbd6ebec0fe134aeef667d047c6c\",\n  \"sourceArchiveSha256\": \"6378789151d5d1d9acb80e3dff6f8b93290e6d75a7212fb514f8fb30599cb359\",\n  \"distributionSha256\": \"91eca2730dd4ec55dad58bd7f466dacae6262df6df763b2072308c7e6c04932f\",\n  \"manifestSha256\": \"7febf64fb939bc186b530b2470d3f39a544b62a1e7a1b572e3bd6ceab6e923ae\",\n  \"play\": \"v0.15.0/site/game/\",\n  \"download\": \"v0.15.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "e9ad9541352186555f666752f2b718a713dd7beabcb5f9d0b3aedeacdaef43a9"
+    },
+    {
+      "version": "v0.16.0",
+      "tagObject": "39f071ae3ad38d648f8bd2fa82a79bccce33fc84",
+      "commit": "8fb6b5782a6fee85211b9bbbfb3d13a1d1a60c43",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.16.0\",\n  \"sourceRevision\": \"8fb6b5782a6fee85211b9bbbfb3d13a1d1a60c43\",\n  \"sourceArchiveSha256\": \"e6013ffbe06e28eb17b142ea0c7b10eb045985fe33e4f12e66abcfaa8faa6e0e\",\n  \"distributionSha256\": \"186abf3723ddd5c3683f453a1c21ad3defe4c020856702d27680b568ee86c6df\",\n  \"manifestSha256\": \"1ebb79d210361574f9adba9a2ddb8ff05f7d0a437573ee30cc18e1d63f5b3043\",\n  \"play\": \"v0.16.0/site/game/\",\n  \"download\": \"v0.16.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "ed8b43e49a1e49f8306dfd7ac337ae0fcc045abb193ced963700ff947d4439a7"
+    },
+    {
+      "version": "v0.17.0",
+      "tagObject": "4f14195f94f17efee4915264c740f0c6e9afefd0",
+      "commit": "a38156e337bd274bb38231e9b408abd10d56404d",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.17.0\",\n  \"sourceRevision\": \"a38156e337bd274bb38231e9b408abd10d56404d\",\n  \"sourceArchiveSha256\": \"74da7cfdfc36c9c21ab5180afbb598d9deba18802b25f583c653566f1879ec5e\",\n  \"distributionSha256\": \"f6cd09198af69818b2346941181e2c22453a81c7eb85af69de577db997a4a852\",\n  \"manifestSha256\": \"46e121695fc4c20d850c1ccb0ed4da26b635fcaf9b3f6c74c1476927def2a546\",\n  \"play\": \"v0.17.0/site/game/\",\n  \"download\": \"v0.17.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "6749c4b6465bd22ca0448b613b6a8b905917f0d8be31b63006c24dd2bb9574f7"
+    },
+    {
+      "version": "v0.17.1",
+      "tagObject": "299375ec717442f7967543f991c994643c6e2bd3",
+      "commit": "efd5fe025a9fe3f1688a11f1be9400018f8e793d",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.17.1\",\n  \"sourceRevision\": \"efd5fe025a9fe3f1688a11f1be9400018f8e793d\",\n  \"sourceArchiveSha256\": \"8e990bd97d9da7f267d2e2a6e17cb69a73c22f2bb01110988bd0ee5e0e198ac6\",\n  \"distributionSha256\": \"94a2c573eb6bdfdd9cbbfe36d0680aa886b33b029b935870d9199ed5bfcb18d4\",\n  \"manifestSha256\": \"8f3dc31d1e36c8e7843647a653e185cea2b9d7eb870783b91c56a2e89e23199a\",\n  \"play\": \"v0.17.1/site/game/\",\n  \"download\": \"v0.17.1/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "3667c1123ec5b2f47859a8b8cec2944bf2be8cb1782cae7678927c1d868c709f"
+    },
+    {
+      "version": "v0.18.0",
+      "tagObject": "8a51ef1da7d69786a5c60e2125234e907e32a4be",
+      "commit": "3eb42d7cb118d443e474682ee382484e0bf3c7f4",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.18.0\",\n  \"sourceRevision\": \"3eb42d7cb118d443e474682ee382484e0bf3c7f4\",\n  \"sourceArchiveSha256\": \"f0523ecd736ce0f7b0ece0386b538ebf09627a77819129b544e44d4ecfb83a2b\",\n  \"distributionSha256\": \"b20aeb1dbdabb958836bb2650b92e211bd4851aa415ed4be19680e0cd804d130\",\n  \"manifestSha256\": \"a603310aa67ca95102e6e85af4496ebfe5812daba5671c62303c55ee8a782aaf\",\n  \"play\": \"v0.18.0/site/game/\",\n  \"download\": \"v0.18.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "2de5123bf5bc7983b660547698085c1cf6381f48f8b6b20b6c665c53af4d1c29"
+    },
+    {
+      "version": "v0.19.0",
+      "tagObject": "b12479e46307dbc6178ee4189cba6940a6baba73",
+      "commit": "9b97ea4ab0fa43c583c060d79f6806a6ec599b43",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.19.0\",\n  \"sourceRevision\": \"9b97ea4ab0fa43c583c060d79f6806a6ec599b43\",\n  \"sourceArchiveSha256\": \"a5a5cbf6046265e1dcf2fd92211da6adfcb4686c65d5a4a4d77e69a89fa6bd1d\",\n  \"distributionSha256\": \"3b9319af5548f628ed9a6c8401e1b709c3e0c57f06927dedf63dc422664bfb9f\",\n  \"manifestSha256\": \"7e397fce46b4c72c4eb6b188c31c03265c0773eb4b822a75efd83ce76e56ed10\",\n  \"play\": \"v0.19.0/site/game/\",\n  \"download\": \"v0.19.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "30827acb016d3d90e6cf2c51415e73872bf4b424cfc37f3cceec2bf6bd6e4b2e"
+    },
+    {
+      "version": "v0.20.0",
+      "tagObject": "3adac423d22a47598997098145001f1ee3e3ea41",
+      "commit": "a9578e0aecacf8d78fbc097406f5f603f5de41cc",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.20.0\",\n  \"sourceRevision\": \"a9578e0aecacf8d78fbc097406f5f603f5de41cc\",\n  \"sourceArchiveSha256\": \"ef38495fb004d4d132ff5644903003a840af3a7afd4e83123fa3ed7051e30fa8\",\n  \"distributionSha256\": \"49e7ecf250e64fce55bc22d2b37910ad6e434ba7731445984d470cc34fb4ba9b\",\n  \"manifestSha256\": \"722e6fb5d6cc6f49df3d62914b56708d2419ac541baa93aaef58b8cd14044267\",\n  \"play\": \"v0.20.0/site/game/\",\n  \"download\": \"v0.20.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "907a6bd52d08a89254e2c0425c3a62e49c8b90793de24e66cdf7c01732673098"
+    },
+    {
+      "version": "v0.21.0",
+      "tagObject": "6eb25743751f8e55078c0bbc32efaf6c197baf89",
+      "commit": "1250a8afdcf9594d87ed6a79ba29639d1225fa69",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.21.0\",\n  \"sourceRevision\": \"1250a8afdcf9594d87ed6a79ba29639d1225fa69\",\n  \"sourceArchiveSha256\": \"b1c57c085c877be192676b8407645daf84c34f4e8c20a520036632ebfdb69b59\",\n  \"distributionSha256\": \"41c708bd8cb1a759c44ec409bbcbc71fe8abfc63bcae2bb511cbe102f584b005\",\n  \"manifestSha256\": \"03b023eb71d048305848149700e8977431f89648f3ff3c1dab36cf4e26b9a883\",\n  \"play\": \"v0.21.0/site/game/\",\n  \"download\": \"v0.21.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "878c2dac774f37cc5bcb93fd70e45ab4bd02eae19747501ef47736c2b01465b0"
+    },
+    {
+      "version": "v0.22.0",
+      "tagObject": "d299ff0c3f3d232e9066cff8fd0d40ab93edeaf2",
+      "commit": "a45c27d8e78cf0d4a20e9d1cbe26c331ea105f9b",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.22.0\",\n  \"sourceRevision\": \"a45c27d8e78cf0d4a20e9d1cbe26c331ea105f9b\",\n  \"sourceArchiveSha256\": \"c7bf50ff769be7784b32ee459dda3af643fa03ffa1a3ac3a7f783058021b9788\",\n  \"distributionSha256\": \"6cf750b49009d797cdb75c2153fb03f3d77d083e7e4cc008eb916d5f7a04bfbc\",\n  \"manifestSha256\": \"00eb3a520a3a3df1f75a72a7a2e3497161e82f1d1e3dcdb7f66bd6d141863880\",\n  \"play\": \"v0.22.0/site/game/\",\n  \"download\": \"v0.22.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "244aab0c55ff56a216f227fc6ded3a980ae1ce8a3d257575834d475a75b803c5"
+    },
+    {
+      "version": "v0.23.0",
+      "tagObject": "46be19b49016eebb0d05fefa12ed23df3982d0e6",
+      "commit": "2455efd306aefea285725b8f502854678a692aa0",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.23.0\",\n  \"sourceRevision\": \"2455efd306aefea285725b8f502854678a692aa0\",\n  \"sourceArchiveSha256\": \"98617461e3da0d3a0f69f95b5cac5a7a80532d5880487b2f29507b65563bf6c9\",\n  \"distributionSha256\": \"649f649426083f6d55f1af7111678bfbcd525876aaa68083c6d3dbdf89690bd1\",\n  \"manifestSha256\": \"99a9d7ddf8eedaefa55518bae1dcab0780a8348ad511c0f27ba456a5acf458fa\",\n  \"play\": \"v0.23.0/site/game/\",\n  \"download\": \"v0.23.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "717e9e02152d37b29570c7620101c01a2a773c3f9bbb0c368697ba4ce7aa2580"
+    },
+    {
+      "version": "v0.24.0",
+      "tagObject": "7a84f22481a6ac5f835cbde6777ad08260260bcf",
+      "commit": "45a0241e75cd6fe6cddf71671fd9fd3735a9032c",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.24.0\",\n  \"sourceRevision\": \"45a0241e75cd6fe6cddf71671fd9fd3735a9032c\",\n  \"sourceArchiveSha256\": \"dec1f1d7e8329ded36e7aa33bd68f544eea1a50a1b647911e0f8e19c2f1f956c\",\n  \"distributionSha256\": \"da50ce929ad5c0c6dc4ecfbe6330c0b27d1d00cabd51b7a2fbaf408e472ac49c\",\n  \"manifestSha256\": \"f2a9cc88ade68c0ac83f2ae82082e13c8b2dd4416539667ea68bfadf238c2fa1\",\n  \"play\": \"v0.24.0/site/game/\",\n  \"download\": \"v0.24.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "d347fcb387c15dbdc36b55db9403b12a6e20f548427c61631f38c43541adb281"
+    },
+    {
+      "version": "v0.25.0",
+      "tagObject": "e51019404f4798c75e0efeacafc54360e67d6750",
+      "commit": "da557b2d5926017943ade53bf365d8f1f247160b",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.25.0\",\n  \"sourceRevision\": \"da557b2d5926017943ade53bf365d8f1f247160b\",\n  \"sourceArchiveSha256\": \"254f5e0a76a79b1868dd58ebc8efadc8ebed5bca0ec235d5d9b70215b3a0f8c7\",\n  \"distributionSha256\": \"1c315e958e20f0367fd25c6ee42085c8c6f84ffe2fa5a80139a0f2b6824b6aa1\",\n  \"manifestSha256\": \"0b35c192e6aabf509b2ed358abf22d12196265d71546c4e6eeff8f7c6bb05fbb\",\n  \"play\": \"v0.25.0/site/game/\",\n  \"download\": \"v0.25.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "80aa8b5abb110e732a3d44d39d0028fd93504d49d4a85a3d5d10024e832f3f45"
+    },
+    {
+      "version": "v0.26.0",
+      "tagObject": "1427b8c737a4541be23f086de7f48bfc70ee6309",
+      "commit": "dfde7383440aafc292b5c83f4e471367075f71e4",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.26.0\",\n  \"sourceRevision\": \"dfde7383440aafc292b5c83f4e471367075f71e4\",\n  \"sourceArchiveSha256\": \"8fedb2f645eb86364bb559356c8e872af31d12cb59c6f0b0a9337c57f91ae4c6\",\n  \"distributionSha256\": \"1380ab99dbf8a710013fe314ca0d3df2c6eb6bd9170536356c53468fc988cf52\",\n  \"manifestSha256\": \"580df0e2de8a6d40df8510d5a89c88bb07889eb9e39fc8fc4029fea69ec3a89d\",\n  \"play\": \"v0.26.0/site/game/\",\n  \"download\": \"v0.26.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "dbf8caffa17970edc0ed4973d615de2a3a7bfdcb3e555efbd160d69297172126"
+    },
+    {
+      "version": "v0.27.0",
+      "tagObject": "7c03c06a0f4d15af31b0bbd2a6fa4e3a44c5ab18",
+      "commit": "562fc867c7aa64ffe727f55a561a6531371f0f47",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.27.0\",\n  \"sourceRevision\": \"562fc867c7aa64ffe727f55a561a6531371f0f47\",\n  \"sourceArchiveSha256\": \"cb20dfdb50f8d55d32133b6d4712b5629c43c31bc6cb50fa53c490f86e6ce02e\",\n  \"distributionSha256\": \"7a53bc4677c7cbf4f0266ec78990464bf3300583d1d131931677af7e94b77878\",\n  \"manifestSha256\": \"054ee636a6d98723f813bbcc81fae70bc03a0f7bed1b6d38ef0f8dde64e4d6c4\",\n  \"play\": \"v0.27.0/site/game/\",\n  \"download\": \"v0.27.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "ed2fd25bb999a7d287aab9e3f5468a9a7c629d8de8e4dd2afbc2fc9a8aa7632b"
+    },
+    {
+      "version": "v0.28.0",
+      "tagObject": "e87d4ad077b6057c2c65efed99310087d39c8318",
+      "commit": "f79f3c56b0a3cd88ca4e98b7f31689398523da74",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.28.0\",\n  \"sourceRevision\": \"f79f3c56b0a3cd88ca4e98b7f31689398523da74\",\n  \"sourceArchiveSha256\": \"fa7a153bb6d66365c3b24ee52da24afe1c4a29c78af41ce0a359748251459b5c\",\n  \"distributionSha256\": \"3bcebe6865c4f3569405691c9d2e7a1c6d3465ebbbd4c5fe84d06093b7fe8464\",\n  \"manifestSha256\": \"f2fdf62baae62647f550cb3c058ca7edbf99b487aef00d2e11ff98dc9b6c84d5\",\n  \"play\": \"v0.28.0/site/game/\",\n  \"download\": \"v0.28.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "4417949f570f9dd8c70181bd843baad7b9724f840a1377904ff20dd92e9fbb4c"
+    },
+    {
+      "version": "v0.29.0",
+      "tagObject": "fe04904513825e8b63a37ef14beaac2311ce0449",
+      "commit": "f40e1d9ecf262ba94915ddc3fc05eda074058b7a",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.29.0\",\n  \"sourceRevision\": \"f40e1d9ecf262ba94915ddc3fc05eda074058b7a\",\n  \"sourceArchiveSha256\": \"20e79bd32ff0ab67ecb4b5daad33e379d0fe1021a609695c323b9d6a8f0d91df\",\n  \"distributionSha256\": \"ecaeafc2e9108449e6571a91763419c941f97eaf9632355ae68b7ecac873d62b\",\n  \"manifestSha256\": \"8d644009e69118ce4f89c77fa4d24aa2bd1baadd5dc746d07434ec026ffdacfc\",\n  \"play\": \"v0.29.0/site/game/\",\n  \"download\": \"v0.29.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "4e4bc8117658704051552d240bf0d05a265ec840e6ca3654539c70964471623c"
+    },
+    {
+      "version": "v0.29.1",
+      "tagObject": "abbc18111d445360e4666fe7193adfd191197b2b",
+      "commit": "90b974bfd733ccb11d74383e154467bd172b31d0",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.29.1\",\n  \"sourceRevision\": \"90b974bfd733ccb11d74383e154467bd172b31d0\",\n  \"sourceArchiveSha256\": \"64a3204f7a804f78ced3e681826006a1f1c79d9f36536e510067c186794ee2d4\",\n  \"distributionSha256\": \"0f90b09e61cd769eaeac4c57b2a843a0f0650c3f7f74807958e4c95907af3385\",\n  \"manifestSha256\": \"caca186be56c64973f09a040bbe44fa6355a924d3c0e10a21d2fbd71d3b40a8d\",\n  \"play\": \"v0.29.1/site/game/\",\n  \"download\": \"v0.29.1/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "ac8f794f0319b334c3c118747bd8ede8d6ae18f2fe7f557dd0e259d95fd64d2b"
+    },
+    {
+      "version": "v0.29.2",
+      "tagObject": "6211817554fc82bfc65b8c15bf825beb82301859",
+      "commit": "d611f1429272ce402db6c38dde763bd3e15498cb",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.29.2\",\n  \"sourceRevision\": \"d611f1429272ce402db6c38dde763bd3e15498cb\",\n  \"sourceArchiveSha256\": \"bc51b40531ce011340fae8c82a193de98de4cee2cec9445c3c38f982f9e28cc9\",\n  \"distributionSha256\": \"deaec14a53aa2a0730b1e3a31e555efdc29e42cbfdf23cf9dbe8197b83ee6986\",\n  \"manifestSha256\": \"200666542c68b8101cda686a4adc88b7a0582c08232cc03f0ee9a8c7fc94b3ca\",\n  \"play\": \"v0.29.2/site/game/\",\n  \"download\": \"v0.29.2/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "87626d5382d2908be266aeb41503b2fbbc8299e672a7d6da67a3a5295f42be4f"
+    },
+    {
+      "version": "v0.30.0",
+      "tagObject": "1e2a3f3d5b731f27aa4ed36670b9fd803fb4c300",
+      "commit": "da573579fa10f41830e5743b4f9e7e3991e7613a",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.30.0\",\n  \"sourceRevision\": \"da573579fa10f41830e5743b4f9e7e3991e7613a\",\n  \"sourceArchiveSha256\": \"09dab7d80861205cb1aa4cf5c862450a493e1c0f00662000639b45a8d94ae438\",\n  \"distributionSha256\": \"54922966366b9cf9f54ea9bc3c23368f0f64ece959b094830ae7ac6931560bd8\",\n  \"manifestSha256\": \"cc8a4e28025de443d2badf87d0fea6bad5126bda9d76795dbdaf001b66c36ca1\",\n  \"play\": \"v0.30.0/site/game/\",\n  \"download\": \"v0.30.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "8ce82a41a22447609c4a91be0174e71a41d95b4423e391f0b36f78bff7b030e2"
+    },
+    {
+      "version": "v0.31.0",
+      "tagObject": "f948b00e90b974b521fd9d215c4eaa8af118195f",
+      "commit": "70c67e172ceb39947b442948add0d745b19f9a29",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.31.0\",\n  \"sourceRevision\": \"70c67e172ceb39947b442948add0d745b19f9a29\",\n  \"sourceArchiveSha256\": \"96e71bd8de20bb6538c6e0cba28248137f76ea709e3ddb0cd7fbd9ab0fa4d98d\",\n  \"distributionSha256\": \"1572cdba6183efadd217fcfc4734b5d67415874141e89b2d173848b6a796580c\",\n  \"manifestSha256\": \"bc1aea21d9efb84ae04520a32dc78a8ef825f5ed28eac00c6e625d6ea3280ae5\",\n  \"play\": \"v0.31.0/site/game/\",\n  \"download\": \"v0.31.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "58cfcb7e8d8bf18eb87bb3f69f9adb9c8f8fb53f76cea3c24de34628d41dfa7c"
+    },
+    {
+      "version": "v0.32.0",
+      "tagObject": "be78ff4adfa5be834ccee7cfaf150300ef604232",
+      "commit": "b37f5fc3ecbeedc06fa1fd13229a9b1864cb05af",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.32.0\",\n  \"sourceRevision\": \"b37f5fc3ecbeedc06fa1fd13229a9b1864cb05af\",\n  \"sourceArchiveSha256\": \"56b5c0a386c818921c49b379bdbd8c2aad5a7b0a4691b34991f7d4593e773790\",\n  \"distributionSha256\": \"b728551d37eaba29c30c82ca723b35def4cd1ab222138574658720e873b12269\",\n  \"manifestSha256\": \"76fd8f561412bd14ed88f4252161f59a79a991a361e4074d60b3772727f42121\",\n  \"play\": \"v0.32.0/site/game/\",\n  \"download\": \"v0.32.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "9b13e89f54f89b5f5bdeb4ea9e36ff7a7f5226edda99a89c2830e8f8f39f19f6"
+    },
+    {
+      "version": "v0.33.0",
+      "tagObject": "ef957d2573cc07a5aef366f8eab2a24dbaa08965",
+      "commit": "e29f2ac9207b047c07e6b72f94fa24cea9b00e1c",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.33.0\",\n  \"sourceRevision\": \"e29f2ac9207b047c07e6b72f94fa24cea9b00e1c\",\n  \"sourceArchiveSha256\": \"5aae640e267497b06e4c1b98caee9f3cfbb4d7409bb7a11c31e0f8532755538c\",\n  \"distributionSha256\": \"965f26322b144a4a8e1e6ef01b584239ed647f14f313253807552f581d49813c\",\n  \"manifestSha256\": \"1f249a2df01032b057773a1d78d58d0c8822e7238fd197301553f88a0c6cc29a\",\n  \"play\": \"v0.33.0/site/game/\",\n  \"download\": \"v0.33.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "e1e6b04205653ba1ffd2798d571dab73f624d0938f5127ca224a303069d17379"
+    },
+    {
+      "version": "v0.34.0",
+      "tagObject": "dc0afc51bf6290555eb1b37287b7374040062b68",
+      "commit": "ef1cc41553b7f8c4b1de0156b7921569b0d71f60",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.34.0\",\n  \"sourceRevision\": \"ef1cc41553b7f8c4b1de0156b7921569b0d71f60\",\n  \"sourceArchiveSha256\": \"49d3b50962f26848abb2d009ba022cda0d16edcccc4444ae3e810b8a51e74d1d\",\n  \"distributionSha256\": \"582cab9343e24cc60de45b7ff95477698adca29200ad7e306c91502c12393bea\",\n  \"manifestSha256\": \"49595259a7fea9dd9f4988a9304356d0544c6fc0699dbb0d928aaa288b98e1ef\",\n  \"play\": \"v0.34.0/site/game/\",\n  \"download\": \"v0.34.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "19899e6ad66b9d69759da47035e6d3357c955d5c47b4a0cb18fb2af0aa61ed33"
+    },
+    {
+      "version": "v0.35.0",
+      "tagObject": "dc612f49b844c65895b75f8ddcd47543077a715f",
+      "commit": "9747b3e86e43d4e66b1c7b4aea6e05b220bf3ad5",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.35.0\",\n  \"sourceRevision\": \"9747b3e86e43d4e66b1c7b4aea6e05b220bf3ad5\",\n  \"sourceArchiveSha256\": \"c5bdc9775b3cb5097cb42d83bc77030eeb36435f97ebea93172049ce00b959d8\",\n  \"distributionSha256\": \"3558ded7a8235b9ac708c71ec7fea169bb5d71f324014b8e4ccdbfa9b3bd3adb\",\n  \"manifestSha256\": \"57082613b02820815ac91bd18d5c31ad8309a7f78fd3e59f898c8c6f41a03496\",\n  \"play\": \"v0.35.0/site/game/\",\n  \"download\": \"v0.35.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "c4361b42bb2dc6e0a3b35db4a4ce5b9c01b2385d0ab62b9a4e8f179ec824a3ad"
+    },
+    {
+      "version": "v0.36.0",
+      "tagObject": "7fd492d653e1763a0f98d63d8d3fe746a84f0ded",
+      "commit": "fb6a199a4617554d51fa3f9fe9968754244543eb",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.36.0\",\n  \"sourceRevision\": \"fb6a199a4617554d51fa3f9fe9968754244543eb\",\n  \"sourceArchiveSha256\": \"f0877dae0ba224b02d2ea40dc18c5baf1bbce71ba26a99a1d7a2f5aa5f81ac27\",\n  \"distributionSha256\": \"91417c7c3de73429ba181db473ad45ce18a11b1cc2199b83a783acd6cb2f801b\",\n  \"manifestSha256\": \"b8c5e085875eb7905a0e91c13c5152e65c0b94230b1a4c455397aa215aaf8f78\",\n  \"play\": \"v0.36.0/site/game/\",\n  \"download\": \"v0.36.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "56be447c771be5b73ece2961a7fc79b897f7218f15b0094e92b07afa5c414265"
+    },
+    {
+      "version": "v0.37.0",
+      "tagObject": "2c61fb61e510a8a8941b77eb7843aabdce1e26df",
+      "commit": "c8abd4e4e48c34a9ae30255d2d4a2e9a74d593ed",
+      "recordUtf8": "{\n  \"formatVersion\": 1,\n  \"version\": \"v0.37.0\",\n  \"sourceRevision\": \"c8abd4e4e48c34a9ae30255d2d4a2e9a74d593ed\",\n  \"sourceArchiveSha256\": \"02544e05fd43eee86ce205bbcbcdca4432a1b1372dbd40bdc7ae48b5aa8aad00\",\n  \"distributionSha256\": \"96593b558a77c71a1574b5f6c9265ab15135efe933791155f426c3d0c5a038ef\",\n  \"manifestSha256\": \"282451d5235534c8f671d4b271370a0fb421784784f91610985c0a5ff8cc41cf\",\n  \"play\": \"v0.37.0/site/game/\",\n  \"download\": \"v0.37.0/site/distribution.zip\"\n}\n",
+      "recordBytes": 465,
+      "recordSha256": "caad64c3889d23d01f16f882f6fc28fb9f7193f0b967ad7d999a9cfaa9a15d4b"
+    }
+  ]
+}
