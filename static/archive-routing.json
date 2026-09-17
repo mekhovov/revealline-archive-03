@@ -1,0 +1,271 @@
+{
+  "formatVersion": 1,
+  "sourceRepository": "mekhovov/revealline",
+  "target": "archive-03",
+  "canonicalSites": {
+    "v0.1.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.1.0/site/",
+    "v0.1.1": "https://mekhovov.github.io/revealline-archive-01/releases/v0.1.1/site/",
+    "v0.1.2": "https://mekhovov.github.io/revealline-archive-01/releases/v0.1.2/site/",
+    "v0.2.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.2.0/site/",
+    "v0.2.1": "https://mekhovov.github.io/revealline-archive-01/releases/v0.2.1/site/",
+    "v0.3.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.3.0/site/",
+    "v0.4.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.4.0/site/",
+    "v0.4.1": "https://mekhovov.github.io/revealline-archive-01/releases/v0.4.1/site/",
+    "v0.5.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.5.0/site/",
+    "v0.6.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.6.0/site/",
+    "v0.7.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.7.0/site/",
+    "v0.8.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.8.0/site/",
+    "v0.9.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.9.0/site/",
+    "v0.10.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.10.0/site/",
+    "v0.11.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.11.0/site/",
+    "v0.12.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.12.0/site/",
+    "v0.13.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.13.0/site/",
+    "v0.14.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.14.0/site/",
+    "v0.15.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.15.0/site/",
+    "v0.16.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.16.0/site/",
+    "v0.17.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.17.0/site/",
+    "v0.17.1": "https://mekhovov.github.io/revealline-archive-01/releases/v0.17.1/site/",
+    "v0.18.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.18.0/site/",
+    "v0.19.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.19.0/site/",
+    "v0.20.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.20.0/site/",
+    "v0.21.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.21.0/site/",
+    "v0.22.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.22.0/site/",
+    "v0.23.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.23.0/site/",
+    "v0.24.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.24.0/site/",
+    "v0.25.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.25.0/site/",
+    "v0.26.0": "https://mekhovov.github.io/revealline-archive-01/releases/v0.26.0/site/",
+    "v0.27.0": "https://mekhovov.github.io/revealline-archive-02/releases/v0.27.0/site/",
+    "v0.28.0": "https://mekhovov.github.io/revealline-archive-02/releases/v0.28.0/site/",
+    "v0.29.0": "https://mekhovov.github.io/revealline-archive-02/releases/v0.29.0/site/",
+    "v0.29.1": "https://mekhovov.github.io/revealline-archive-02/releases/v0.29.1/site/",
+    "v0.29.2": "https://mekhovov.github.io/revealline-archive-02/releases/v0.29.2/site/",
+    "v0.30.0": "https://mekhovov.github.io/revealline-archive-02/releases/v0.30.0/site/",
+    "v0.31.0": "https://mekhovov.github.io/revealline-archive-02/releases/v0.31.0/site/",
+    "v0.32.0": "https://mekhovov.github.io/revealline-archive-02/releases/v0.32.0/site/",
+    "v0.33.0": "https://mekhovov.github.io/revealline-archive-03/releases/v0.33.0/site/",
+    "v0.34.0": "https://mekhovov.github.io/revealline-archive-03/releases/v0.34.0/site/",
+    "v0.35.0": "https://mekhovov.github.io/revealline-archive-03/releases/v0.35.0/site/"
+  },
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "sourceRevision": "c5e4c5a6fa141c1cb106b769712666e1726980d0",
+      "manifestSha256": "b0bd08588a7004faabf138d94773044cef7522254a0efe492b127dcb8596ea50"
+    },
+    {
+      "version": "v0.1.1",
+      "sourceRevision": "76687c2decf409d845f698ad7fefa92167178011",
+      "manifestSha256": "d0e3a743cb855bb6bdf2c1ec74bc7b79cd55520e0c09126c433aa92c3cf6ad32"
+    },
+    {
+      "version": "v0.1.2",
+      "sourceRevision": "5f539f6f722c49f36a31701454a683ee60122d81",
+      "manifestSha256": "cdc3eaf999081e4b389a31c3bc3200dba1221287fff01d8c82499c1fbaf7f155"
+    },
+    {
+      "version": "v0.2.0",
+      "sourceRevision": "eec303cc67914fa6a90db6bd209d41f2e7195ecb",
+      "manifestSha256": "2bc8c25e70e691b32b57efb30534bbb036733eaec5e2ea3466ec5b853fdefe18"
+    },
+    {
+      "version": "v0.2.1",
+      "sourceRevision": "147616ff1ac6f272193eb15ca9df9d1c158e8d29",
+      "manifestSha256": "76f6d6e3a36a3d2b14411a76c8fb59560e7bbe3b19e5614722b22fd10a1f0774"
+    },
+    {
+      "version": "v0.3.0",
+      "sourceRevision": "7cd2046405a7d4daf6663c01c1478101bd0a632a",
+      "manifestSha256": "30ceeac7aab37a3d91ec3b90ebc4b4acc94fa377e954df7b047ea8e05f010b1d"
+    },
+    {
+      "version": "v0.4.0",
+      "sourceRevision": "378e7902efdc5f9f585efee5946fb4661d9cfec7",
+      "manifestSha256": "a172e2bc322096e6699bec01abba42214cf97c200425baba53677ecb2475039d"
+    },
+    {
+      "version": "v0.4.1",
+      "sourceRevision": "42dc21f65f666036706d57c6f1054a37967f367b",
+      "manifestSha256": "410926ada19bb7f6dc1795cfc54d2f97eac6a707e0df84f55852d8de13ce0cc0"
+    },
+    {
+      "version": "v0.5.0",
+      "sourceRevision": "617fc224043945c0fc337c12027aa70e4da33323",
+      "manifestSha256": "04a59cc082d242d884c6bc304e54e29101ea8fcdb708a7e2016edd5def2cbfb9"
+    },
+    {
+      "version": "v0.6.0",
+      "sourceRevision": "e88bab7e9677c82419aca35557c858c670425f16",
+      "manifestSha256": "6803d6dc471165de4ab4a61af7c5a24ec8472e47f55b0a2d9c1a6324ddadd2c3"
+    },
+    {
+      "version": "v0.7.0",
+      "sourceRevision": "1d4a8d9636428122cca857533dff68c7ee65ac88",
+      "manifestSha256": "c2dde7df03dcd441eb9c50e213dd9fb1e84761c931730e13cee701627a786bce"
+    },
+    {
+      "version": "v0.8.0",
+      "sourceRevision": "8410d814dbcc7b3aef53e11c6f94d384d01cce05",
+      "manifestSha256": "32c76ce0742f9c7bd78e50ece49a58a43ff05cf6a6f9566159e1593c997567f0"
+    },
+    {
+      "version": "v0.9.0",
+      "sourceRevision": "315a4782a159f2274f7200e3470ec20c3859707b",
+      "manifestSha256": "fb3b40ee4f55377b2bc747bc9b946792566f69b08a6146822d4975e880dc15ce"
+    },
+    {
+      "version": "v0.10.0",
+      "sourceRevision": "40ae9d23ad8737c4f77f9cc07923948133b7c09d",
+      "manifestSha256": "bf5f607fcea10e9db421799bb900ecc6ab8364239f22b6a2ca89bf473a72a02d"
+    },
+    {
+      "version": "v0.11.0",
+      "sourceRevision": "7bc32d62fb7ec9c24e8b8dc5a80a016bbb76c2db",
+      "manifestSha256": "c6558d315f811ac35e6444b6e759e27dd4f74ca2732cfc19fcc7b46af4ae5bda"
+    },
+    {
+      "version": "v0.12.0",
+      "sourceRevision": "640f3e3570323394a22922261e8928634db7bf3b",
+      "manifestSha256": "89abb55adc3a47792c778df7e24ef971d1d87d989946e512e3b577445d50515b"
+    },
+    {
+      "version": "v0.13.0",
+      "sourceRevision": "c7b0122edffcaabbdfa6a817c06f603625f79fe0",
+      "manifestSha256": "b63caefd0362c2e23b89b50e656851ab820d97468bc7a890332d0bf38dc698fe"
+    },
+    {
+      "version": "v0.14.0",
+      "sourceRevision": "21dfaeed08df95e7cb1d0e20c28c39b3fd3364ee",
+      "manifestSha256": "77a60de67b27a3002f073a3fc4573716abcf1d352d7dfd3a24eea856692a6b4c"
+    },
+    {
+      "version": "v0.15.0",
+      "sourceRevision": "8eef7e2ada51dbd6ebec0fe134aeef667d047c6c",
+      "manifestSha256": "7febf64fb939bc186b530b2470d3f39a544b62a1e7a1b572e3bd6ceab6e923ae"
+    },
+    {
+      "version": "v0.16.0",
+      "sourceRevision": "8fb6b5782a6fee85211b9bbbfb3d13a1d1a60c43",
+      "manifestSha256": "1ebb79d210361574f9adba9a2ddb8ff05f7d0a437573ee30cc18e1d63f5b3043"
+    },
+    {
+      "version": "v0.17.0",
+      "sourceRevision": "a38156e337bd274bb38231e9b408abd10d56404d",
+      "manifestSha256": "46e121695fc4c20d850c1ccb0ed4da26b635fcaf9b3f6c74c1476927def2a546"
+    },
+    {
+      "version": "v0.17.1",
+      "sourceRevision": "efd5fe025a9fe3f1688a11f1be9400018f8e793d",
+      "manifestSha256": "8f3dc31d1e36c8e7843647a653e185cea2b9d7eb870783b91c56a2e89e23199a"
+    },
+    {
+      "version": "v0.18.0",
+      "sourceRevision": "3eb42d7cb118d443e474682ee382484e0bf3c7f4",
+      "manifestSha256": "a603310aa67ca95102e6e85af4496ebfe5812daba5671c62303c55ee8a782aaf"
+    },
+    {
+      "version": "v0.19.0",
+      "sourceRevision": "9b97ea4ab0fa43c583c060d79f6806a6ec599b43",
+      "manifestSha256": "7e397fce46b4c72c4eb6b188c31c03265c0773eb4b822a75efd83ce76e56ed10"
+    },
+    {
+      "version": "v0.20.0",
+      "sourceRevision": "a9578e0aecacf8d78fbc097406f5f603f5de41cc",
+      "manifestSha256": "722e6fb5d6cc6f49df3d62914b56708d2419ac541baa93aaef58b8cd14044267"
+    },
+    {
+      "version": "v0.21.0",
+      "sourceRevision": "1250a8afdcf9594d87ed6a79ba29639d1225fa69",
+      "manifestSha256": "03b023eb71d048305848149700e8977431f89648f3ff3c1dab36cf4e26b9a883"
+    },
+    {
+      "version": "v0.22.0",
+      "sourceRevision": "a45c27d8e78cf0d4a20e9d1cbe26c331ea105f9b",
+      "manifestSha256": "00eb3a520a3a3df1f75a72a7a2e3497161e82f1d1e3dcdb7f66bd6d141863880"
+    },
+    {
+      "version": "v0.23.0",
+      "sourceRevision": "2455efd306aefea285725b8f502854678a692aa0",
+      "manifestSha256": "99a9d7ddf8eedaefa55518bae1dcab0780a8348ad511c0f27ba456a5acf458fa"
+    },
+    {
+      "version": "v0.24.0",
+      "sourceRevision": "45a0241e75cd6fe6cddf71671fd9fd3735a9032c",
+      "manifestSha256": "f2a9cc88ade68c0ac83f2ae82082e13c8b2dd4416539667ea68bfadf238c2fa1"
+    },
+    {
+      "version": "v0.25.0",
+      "sourceRevision": "da557b2d5926017943ade53bf365d8f1f247160b",
+      "manifestSha256": "0b35c192e6aabf509b2ed358abf22d12196265d71546c4e6eeff8f7c6bb05fbb"
+    },
+    {
+      "version": "v0.26.0",
+      "sourceRevision": "dfde7383440aafc292b5c83f4e471367075f71e4",
+      "manifestSha256": "580df0e2de8a6d40df8510d5a89c88bb07889eb9e39fc8fc4029fea69ec3a89d"
+    },
+    {
+      "version": "v0.27.0",
+      "sourceRevision": "562fc867c7aa64ffe727f55a561a6531371f0f47",
+      "manifestSha256": "054ee636a6d98723f813bbcc81fae70bc03a0f7bed1b6d38ef0f8dde64e4d6c4"
+    },
+    {
+      "version": "v0.28.0",
+      "sourceRevision": "f79f3c56b0a3cd88ca4e98b7f31689398523da74",
+      "manifestSha256": "f2fdf62baae62647f550cb3c058ca7edbf99b487aef00d2e11ff98dc9b6c84d5"
+    },
+    {
+      "version": "v0.29.0",
+      "sourceRevision": "f40e1d9ecf262ba94915ddc3fc05eda074058b7a",
+      "manifestSha256": "8d644009e69118ce4f89c77fa4d24aa2bd1baadd5dc746d07434ec026ffdacfc"
+    },
+    {
+      "version": "v0.29.1",
+      "sourceRevision": "90b974bfd733ccb11d74383e154467bd172b31d0",
+      "manifestSha256": "caca186be56c64973f09a040bbe44fa6355a924d3c0e10a21d2fbd71d3b40a8d"
+    },
+    {
+      "version": "v0.29.2",
+      "sourceRevision": "d611f1429272ce402db6c38dde763bd3e15498cb",
+      "manifestSha256": "200666542c68b8101cda686a4adc88b7a0582c08232cc03f0ee9a8c7fc94b3ca"
+    },
+    {
+      "version": "v0.30.0",
+      "sourceRevision": "da573579fa10f41830e5743b4f9e7e3991e7613a",
+      "manifestSha256": "cc8a4e28025de443d2badf87d0fea6bad5126bda9d76795dbdaf001b66c36ca1"
+    },
+    {
+      "version": "v0.31.0",
+      "sourceRevision": "70c67e172ceb39947b442948add0d745b19f9a29",
+      "manifestSha256": "bc1aea21d9efb84ae04520a32dc78a8ef825f5ed28eac00c6e625d6ea3280ae5"
+    },
+    {
+      "version": "v0.32.0",
+      "sourceRevision": "b37f5fc3ecbeedc06fa1fd13229a9b1864cb05af",
+      "manifestSha256": "76fd8f561412bd14ed88f4252161f59a79a991a361e4074d60b3772727f42121"
+    },
+    {
+      "version": "v0.33.0",
+      "sourceRevision": "e29f2ac9207b047c07e6b72f94fa24cea9b00e1c",
+      "manifestSha256": "1f249a2df01032b057773a1d78d58d0c8822e7238fd197301553f88a0c6cc29a"
+    },
+    {
+      "version": "v0.34.0",
+      "sourceRevision": "ef1cc41553b7f8c4b1de0156b7921569b0d71f60",
+      "manifestSha256": "49595259a7fea9dd9f4988a9304356d0544c6fc0699dbb0d928aaa288b98e1ef"
+    },
+    {
+      "version": "v0.35.0",
+      "sourceRevision": "9747b3e86e43d4e66b1c7b4aea6e05b220bf3ad5",
+      "manifestSha256": "57082613b02820815ac91bd18d5c31ad8309a7f78fd3e59f898c8c6f41a03496"
+    },
+    {
+      "version": "v0.36.0",
+      "sourceRevision": "fb6a199a4617554d51fa3f9fe9968754244543eb",
+      "manifestSha256": "b8c5e085875eb7905a0e91c13c5152e65c0b94230b1a4c455397aa215aaf8f78"
+    },
+    {
+      "version": "v0.37.0",
+      "sourceRevision": "c8abd4e4e48c34a9ae30255d2d4a2e9a74d593ed",
+      "manifestSha256": "282451d5235534c8f671d4b271370a0fb421784784f91610985c0a5ff8cc41cf"
+    }
+  ]
+}

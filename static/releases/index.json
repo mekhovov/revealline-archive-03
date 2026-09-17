@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "latest": "v0.35.0",
+  "releases": [
+    {
+      "formatVersion": 1,
+      "version": "v0.35.0",
+      "sourceRevision": "9747b3e86e43d4e66b1c7b4aea6e05b220bf3ad5",
+      "sourceArchiveSha256": "c5bdc9775b3cb5097cb42d83bc77030eeb36435f97ebea93172049ce00b959d8",
+      "distributionSha256": "3558ded7a8235b9ac708c71ec7fea169bb5d71f324014b8e4ccdbfa9b3bd3adb",
+      "manifestSha256": "57082613b02820815ac91bd18d5c31ad8309a7f78fd3e59f898c8c6f41a03496",
+      "play": "v0.35.0/site/game/",
+      "download": "https://github.com/mekhovov/revealline/releases/download/v0.35.0/distribution.zip"
+    },
+    {
+      "formatVersion": 1,
+      "version": "v0.34.0",
+      "sourceRevision": "ef1cc41553b7f8c4b1de0156b7921569b0d71f60",
+      "sourceArchiveSha256": "49d3b50962f26848abb2d009ba022cda0d16edcccc4444ae3e810b8a51e74d1d",
+      "distributionSha256": "582cab9343e24cc60de45b7ff95477698adca29200ad7e306c91502c12393bea",
+      "manifestSha256": "49595259a7fea9dd9f4988a9304356d0544c6fc0699dbb0d928aaa288b98e1ef",
+      "play": "v0.34.0/site/game/",
+      "download": "https://github.com/mekhovov/revealline/releases/download/v0.34.0/distribution.zip"
+    },
+    {
+      "formatVersion": 1,
+      "version": "v0.33.0",
+      "sourceRevision": "e29f2ac9207b047c07e6b72f94fa24cea9b00e1c",
+      "sourceArchiveSha256": "5aae640e267497b06e4c1b98caee9f3cfbb4d7409bb7a11c31e0f8532755538c",
+      "distributionSha256": "965f26322b144a4a8e1e6ef01b584239ed647f14f313253807552f581d49813c",
+      "manifestSha256": "1f249a2df01032b057773a1d78d58d0c8822e7238fd197301553f88a0c6cc29a",
+      "play": "v0.33.0/site/game/",
+      "download": "https://github.com/mekhovov/revealline/releases/download/v0.33.0/distribution.zip"
+    }
+  ]
+}
